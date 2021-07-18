@@ -11,6 +11,11 @@ import ojt from "../../Assets/Projects/ojt_.jpg";
 import ojtfull from "../../Assets/Projects/ojtfull.png";
 import bitpal from "../../Assets/Projects/bitpal.jpg";
 import bitpalfull from "../../Assets/Projects/bitpalfull.png";
+import brookline from "../../Assets/Projects/brookline.png";
+import cfourroofing from "../../Assets/Projects/cfourroofing.png";
+import cfourroofingfull from "../../Assets/Projects/cfourroofingfull.png";
+import sbmwt from "../../Assets/Projects/sbmwt.png";
+import sbmwtfull from "../../Assets/Projects/sbmwtfull.png";
 
 function Projects() {
   return (
@@ -42,6 +47,16 @@ function Projects() {
               link="https://pioneerrealty.com/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={brookline}
+              isBlog={false}
+              title="Brookline Dental"
+              description="Brookline Dental team specializes in orthodontics, preventative and restorative care, pediatric dentistry, cosmetic services, and periodontal care, gum health maintenance, and dental implants."
+              link="https://www.brookline-dental.com/"
+            />
+          </Col>
+          
         </Row>
       </Container>
       <Container>
@@ -64,6 +79,20 @@ function Projects() {
                 imgPath={bitpal}
                 imgFull={bitpalfull}
                 title="BitPal International"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <DesignCard
+                imgPath={cfourroofing}
+                imgFull={cfourroofingfull}
+                title="CFour Roofing"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <DesignCard
+                imgPath={sbmwt}
+                imgFull={sbmwtfull}
+                title="Shine Bright"
               />
             </Col>
           </Row>
