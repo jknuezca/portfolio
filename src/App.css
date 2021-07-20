@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.myPortrait {
+  width: 300px !important;
+  height: auto;
+  padding-top: 2em;
+}
+
+.myPortrait img {
+  border-radius: 50%;
+}

@@ -4,7 +4,9 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/JorgeKennethNuezca-Resume.pdf";
+import portrait from "../../Assets/portraitc.jpg";
 import { AiOutlineDownload } from "react-icons/ai";
+import Tilt from "react-parallax-tilt";
 
 function Resume() {
 
@@ -17,6 +19,13 @@ function Resume() {
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+        </Row>
+        <Row style={{ justifyContent: "center", position: "relative"}}>
+          <div className="myPortrait">
+          <Tilt>
+            <img src={portrait} className="img-fluid img-thumbnail center" alt="avatar" />
+          </Tilt>
+          </div>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
