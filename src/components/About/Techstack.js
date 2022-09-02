@@ -7,6 +7,7 @@ import {
   DiSass,
   DiHtml5,
   DiCss3,
+  DiBootstrap,
   DiWordpress,
   DiMysql
 } from "react-icons/di";
@@ -20,6 +21,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />

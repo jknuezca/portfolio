@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />My technical skills include different frameworks like
               <i>
-                <b className="purple"> HTML, CSS, JavaScript, PHP, JQuery, Sass, other web services and programming applications.  </b>
+                <b className="purple"> HTML, CSS (SASS, SCSS), JavaScript, PHP, JQuery, other web services and programming applications.  </b>
               </i>
               <br />
               <br />
@@ -44,7 +44,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js & Vue.js</b>
               </i>
             </p>
           </Col>
@@ -81,16 +81,16 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/"
+                  href="https://www.linkedin.com/in/kenneth-nuezca/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
-              </li> */}
+              </li>
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/horuhe.kenesu"
