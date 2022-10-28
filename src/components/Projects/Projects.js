@@ -48,7 +48,7 @@ function Projects() {
               link="https://pioneerrealty.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={brookline}
               isBlog={false}
@@ -56,7 +56,7 @@ function Projects() {
               description="Brookline Dental team specializes in orthodontics, preventative and restorative care, pediatric dentistry, cosmetic services, and periodontal care, gum health maintenance, and dental implants."
               link="https://www.brookline-dental.com/"
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={capcity}
