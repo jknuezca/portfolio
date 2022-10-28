@@ -16,6 +16,7 @@ import cfourroofing from "../../Assets/Projects/cfourroofing.png";
 import cfourroofingfull from "../../Assets/Projects/cfourroofingfull.png";
 import sbmwt from "../../Assets/Projects/sbmwt.png";
 import sbmwtfull from "../../Assets/Projects/sbmwtfull.png";
+import capcity from "../../Assets/Projects/capcity.png";
 
 function Projects() {
   return (
