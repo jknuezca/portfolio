@@ -56,6 +56,15 @@ function Projects() {
               link="https://www.brookline-dental.com/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={capcity}
+              isBlog={false}
+              title="Cap City Danbury"
+              description="Cap City, Inc. offers high quality products at very competitive prices. This website was built using WordPress Custom Theme."
+              link="https://capcitydanbury.com/"
+            />
+          </Col>
           
         </Row>
       </Container>
